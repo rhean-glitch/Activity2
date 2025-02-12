@@ -86,17 +86,17 @@ header {
 
 .section2-text p, .section3-text p {
     text-align: justify;
-    padding: 0.5rem 4rem 2rem 4rem;
+    padding: 8px 64px 32px 64px;
     font-size: 1.2rem;
 }
 
 footer {
     background-color: black;
-    height: 2.5rem;
+    height: 40px;
 }
 
 footer p {
-    padding-top: 0.6rem;
+    padding-top: 9.6px;
     text-align: center;
     font-weight: bold;
     color: white;
