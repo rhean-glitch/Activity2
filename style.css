@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+body {
+    background-color: #bbe9ff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5bcbff;
+}
+
+.logo-img img {
+    width: 6rem;
+    margin-left: 2rem;
+}
+
+.logo-text {
+    padding: 1rem 2rem;
+    color: white;
+}
+
+.logo-text p {
+    text-align: justify;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.section1-img img {
+    width: 80rem;
+    height: 25rem;
+    border-radius: 10rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.section1-text ul {
+    position: absolute;
+    top: 14rem;
+    left: 17rem;
+}
+
+.section1-text h3 {
+    position: absolute;
+    top: 11rem;
+    left: 39rem;
+    font-size: 2rem;
+}
+
+.section1-text li {
+    font-size: 1.5rem;
+}
+
+.section2, .section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid red;
+    width: 40rem;
+    margin: 2rem 22rem;
+    padding-top: 1rem;
+}
+
+.section2-img, .section3-img {
+    margin-top: 1rem;
+}
+
+.section2-img img, .section3-img img {
+    width: 35rem;
+    height: 25rem;
+}
+
+.section2-text h1, .section3-text h1 {
+    text-align: center;
+    padding-top: 2px;
+    font-size: 2rem;
+}
+
+.section2-text p, .section3-text p {
+    text-align: justify;
+    padding: 0.5rem 4rem 2rem 4rem;
+    font-size: 1.2rem;
+}
+
+footer {
+    background-color: black;
+    height: 2.5rem;
+}
+
+footer p {
+    padding-top: 0.6rem;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
