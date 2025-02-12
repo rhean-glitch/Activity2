@@ -6,10 +6,6 @@
 
 }
 
-main {
-    background-color: #bbe9ff;
-}
-
 header {
     display: flex;
     justify-content: space-between;
@@ -31,6 +27,10 @@ header {
     text-align: justify;
     font-size: 19.2px;
     color: white;
+}
+
+main {
+    background-color: white;
 }
 
 .section1-img img {
